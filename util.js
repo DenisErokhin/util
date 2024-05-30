@@ -14,7 +14,7 @@ const getRandomNumber = (min, max) => {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 };
 
-//функция для проверки максимальной длины строки
+//функция для проверки максимальной длины строки !!!!
 
 const checkLengthString = (text, maxLength) => text.length < maxLength;
 
